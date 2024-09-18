@@ -1,0 +1,68 @@
+
+
+
+
+/*  dkfkhjjfkhkh   */
+
+.dashContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dashCardContainer {
+  width: 18%;
+}
+
+.dashCardHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.iconContainer, .priorityTag {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.icon {
+  font-size: 13px;
+}
+
+.todo {
+  color: #ddeded;
+}
+
+.in-progress {
+  color: #f2d750;
+}
+
+.done {
+  color: green;
+}
+
+.canceled {
+  color: red;
+}
+
+.leftView {
+  display: flex;
+  align-items: center;
+}
+
+.rightView {
+  display: flex;
+  align-items: center;
+}
+
+.more-options {
+  letter-spacing: 2px;
+}
+
+.dashList {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
